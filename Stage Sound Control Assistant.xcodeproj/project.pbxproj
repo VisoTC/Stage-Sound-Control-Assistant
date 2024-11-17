@@ -6,8 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		6E88AC092CEA10070090770C /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 6E88AC082CEA10030090770C /* .gitignore */; };
+		6E88AC0B2CEA10DA0090770C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6E88AC0A2CEA10C90090770C /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		6E69C6242CDF34AD000FCE1A /* Stage Sound Control Assistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stage Sound Control Assistant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E88AC082CEA10030090770C /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		6E88AC0A2CEA10C90090770C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +39,8 @@
 		6E69C61B2CDF34AD000FCE1A = {
 			isa = PBXGroup;
 			children = (
+				6E88AC082CEA10030090770C /* .gitignore */,
+				6E88AC0A2CEA10C90090770C /* README.md */,
 				6E69C6262CDF34AD000FCE1A /* Stage Sound Control Assistant */,
 				6E69C6252CDF34AD000FCE1A /* Products */,
 			);
@@ -108,6 +117,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E88AC092CEA10070090770C /* .gitignore in Resources */,
+				6E88AC0B2CEA10DA0090770C /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
